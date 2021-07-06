@@ -1,4 +1,4 @@
-package ru.unlimint.ordersparser.parser;
+package ru.unlimint.ordersparser.parser.format;
 
 import ru.unlimint.ordersparser.model.Order;
 

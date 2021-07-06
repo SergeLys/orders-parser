@@ -4,12 +4,15 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import lombok.extern.slf4j.Slf4j;
 import ru.unlimint.ordersparser.model.Order;
+import ru.unlimint.ordersparser.parser.format.FormatParser;
 
 /**
  * The class for parsing file
  */
 
+@Slf4j
 public class FileParser {
 
     private String filename;
@@ -40,7 +43,7 @@ public class FileParser {
                 System.out.println(order.toString());
             }
         } catch (Exception ex) {
-
+            log.info(ex.getMessage(), ex);
         }
     }
 

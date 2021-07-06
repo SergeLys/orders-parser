@@ -1,7 +1,7 @@
-package ru.unlimint.ordersparser.parser.impl;
+package ru.unlimint.ordersparser.parser.format.impl;
 
 import ru.unlimint.ordersparser.model.Order;
-import ru.unlimint.ordersparser.parser.FormatParser;
+import ru.unlimint.ordersparser.parser.format.FormatParser;
 
 /**
  * The implementation of {@link FormatParser}

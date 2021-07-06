@@ -5,6 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The class represents an order model
+ */
+
 @Data
 @NoArgsConstructor
 public class Order {
